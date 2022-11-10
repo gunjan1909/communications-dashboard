@@ -19,6 +19,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{{EmailText.text}}",
+      "selfReferencingDataPaths": [],
       "formData": {
         "command": "SEND",
         "send": {

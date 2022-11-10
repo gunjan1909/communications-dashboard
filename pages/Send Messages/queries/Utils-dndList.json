@@ -20,6 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n  let dndCount = 0;\n  let reachable = 0;\n  getAllCustomersList.data.forEach(a => a.UsersDoNotDisturb == 0 ? dndCount++ : reachable++);\n  const ret = [{\n    \"x\": \"Reachable\",\n    \"y\": dndCount\n  }, {\n    \"x\": \"Do not Disturb\",\n    \"y\": reachable\n  }];\n  return ret;\n}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
     },

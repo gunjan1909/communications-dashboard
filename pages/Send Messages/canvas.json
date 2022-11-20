@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 64,
+          "version": 65,
           "minHeight": 720,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -3961,9 +3961,7 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Send Messages_getAllMailingListCustomers",
               "name": "getAllMailingListCustomers",
